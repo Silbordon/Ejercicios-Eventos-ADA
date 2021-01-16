@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/13-dandelion.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 28%;
+    height: 25vh;
+    border-radius: 30px;
+    background-color: rgb(240, 241, 241);
+    box-shadow: 2px 2px 2px 1px rgba(222, 3, 2, .5);
+    margin: 100px auto;
+}
+p{
+    margin: 10px;
+}
+#mensaje{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(128, 5, 5);
+}
+#reiniciar{
+    width: 120px;
+    margin: 10px;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(222, 3, 2, .5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: lightsalmon;
+}

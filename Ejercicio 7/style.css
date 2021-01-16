@@ -1,0 +1,49 @@
+:root{
+    --pcolor: #000000;
+    --background :  #ffffff;
+    }
+    
+    
+.oscuro{
+    --pcolor: #ffffff;
+    --background : #000000;
+    }
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--background);
+}
+
+
+h1{
+    color: var(--pcolor);
+    font-size: 50px;
+}
+
+
+p{
+    margin: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: var(--pcolor);
+}
+
+button{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+

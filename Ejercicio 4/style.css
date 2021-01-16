@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedor{
+    width: 1300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(39, 34, 34);
+    margin: auto;
+    margin-top: 50px;
+}
+
+button{
+    margin: 30px 40px 0 65px;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+
+#rojo{
+    background-color: red;
+}
+
+
+#verde{
+    background-color: green;
+}
+
+#amarillo{
+    background-color: yellow;
+}
+
+#gris{
+    background-color: gray;
+}
+
+#naranja{
+    background-color: rgb(194, 114, 11);
+}
+
+#azul{
+    background-color: blue;
+}
+
